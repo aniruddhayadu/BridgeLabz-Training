@@ -126,8 +126,9 @@ BridgeLabz-Training/
 🔗 **Code Link:**  
 👉 [Day 7 – Built-in Functions]https://github.com/aniruddhayadu/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/extras
 
-**#🗓 Scenario-Based Java Problems**
+---
 
+## 🗓 Day 11 – Scenario-Based Java Problems
 **(Date: 26-Dec-2025)**
 
 1. Coffee Counter Chronicles
@@ -139,5 +140,12 @@ BridgeLabz-Training/
 🔗 Code: [Scenario-Based Folder]https://github.com/aniruddhayadu/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/arrays
 
 ---
+## 🗓 Day 11 – LeetCode Practice
+**(Date: 26-Dec-2025)**
+
+| Problem No | Title | Difficulty | Folder | Link |
+|------------|-------|------------|--------|------|
+| 26 | Remove Duplicates from Sorted Array | Easy | arrays | [Link](leet-code-codebase/arrays/RemoveDuplicates.java) |
+| 35 | Search Insert Position | Easy | arrays | [Link](leet-code-codebase/arrays/SearchInsertPosition.java) |
 
 
