@@ -125,3 +125,19 @@ BridgeLabz-Training/
 
 🔗 **Code Link:**  
 👉 [Day 7 – Built-in Functions]https://github.com/aniruddhayadu/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/extras
+
+**#🗓 Scenario-Based Java Problems**
+
+**(Date: 26-Dec-2025)**
+
+1. Coffee Counter Chronicles
+2. Maya's BMI Tracker
+3. Election Booth Manager
+4. Metro Smart Card Fare Deduction
+5. Raj’s Result Generator
+
+🔗 Code: [Scenario-Based Folder]https://github.com/aniruddhayadu/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/arrays
+
+---
+
+
