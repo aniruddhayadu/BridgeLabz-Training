@@ -143,9 +143,39 @@ BridgeLabz-Training/
 ## 🗓 Day 11 – LeetCode Practice
 **(Date: 26-Dec-2025)**
 
-| Problem No | Title | Difficulty | Folder | Link |
-|------------|-------|------------|--------|------|
-| 26 | Remove Duplicates from Sorted Array | Easy | arrays | [Link](leet-code-codebase/arrays/RemoveDuplicates.java) |
-| 35 | Search Insert Position | Easy | arrays | [Link](leet-code-codebase/arrays/SearchInsertPosition.java) |
+| Problem No | Title | Difficulty | Folder |
+|------------|-------|------------|--------|
+| 26 | Remove Duplicates from Sorted Array | Easy | arrays |
+| 35 | Search Insert Position | Easy | arrays |
 
+---
+
+
+## 🗓 Day 12 – LeetCode Array Problems  
+**(Date: 27-Dec-2025)**
+
+- Practiced array problems on LeetCode to improve problem-solving and efficiency.  
+- Solved the following problems:
+
+| Problem No | Title | Difficulty | Folder |
+|------------|-------|------------|--------|
+| 169 | Majority Element | Easy | arrays |
+| 283 | Move Zeroes | Easy | arrays |
+| 303 | Range Sum Query – Immutable | Easy | arrays |
+| 349 | Intersection of Two Arrays | Easy | arrays |
+
+**Folder Link for Today’s Work:**  
+👉 [LeetCode Arrays Folder](https://github.com/aniruddhayadu/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/arrays)
+
+**Key Concepts Practiced:**
+- Boyer–Moore Voting Algorithm for majority element.
+- Two-pointer in-place modification for moving zeroes.
+- Prefix sums for fast range queries.
+- HashSet for unique intersection elements.
+- Emphasis on **O(n) time** and **O(1) extra space** where possible.
+
+**Commit & Push Notes:**
+- All solutions include `main` methods for testing.
+- Code follows consistent naming and folder structure.
+- Ready for further practice and extension.
 
