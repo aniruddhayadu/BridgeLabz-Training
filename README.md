@@ -51,3 +51,21 @@
  - Practice problems for concept reinforcement
 
 ---
+# 📅 Week 2: this, static, final key words and instanceof operator
+
+**(Date: 29-Dec-2025)**
+
+**-Topics Covered**
+ - this Keyword
+ - Common Uses of this
+ - static Keyword
+ - Key Features of the static Keyword
+ - Static Methods
+ - Static Block
+ - Static Nested Class
+ - Advantages of the static Keyword
+ - Limitations of the static Keyword
+ - final Keyword
+ - Final Methods
+ - Final Classes
+ - instanceof Operator
