@@ -137,7 +137,7 @@ BridgeLabz-Training/
 4. Metro Smart Card Fare Deduction
 5. Raj’s Result Generator
 
-🔗 Code: [Scenario-Based Folder]https://github.com/aniruddhayadu/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/arrays
+🔗 Code: [Scenario-Based Folder]https://github.com/aniruddhayadu/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase
 
 ---
 ## 🗓 Day 11 – LeetCode Practice
@@ -178,4 +178,15 @@ BridgeLabz-Training/
 - All solutions include `main` methods for testing.
 - Code follows consistent naming and folder structure.
 - Ready for further practice and extension.
+---
 
+## 🗓 Day 14 – Scenario-Based Java Problems
+**(Date: 29-Dec-2025)**
+
+6. Parking Lot Gate System
+7. The Number Guessing Game
+8. Shopkeeper’s Discount Dashboard 
+9. School Bus Attendance System
+10. Phone Recharge Simulator 
+
+🔗 Code: [Scenario-Based Folder]https://github.com/aniruddhayadu/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase
