@@ -190,3 +190,12 @@ BridgeLabz-Training/
 10. Phone Recharge Simulator 
 
 🔗 Code: [Scenario-Based Folder]https://github.com/aniruddhayadu/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase
+---
+
+## 🗓 Day 15 – Scenario-Based Java Problems
+**(Date: 29-Dec-2025)**
+11. Temperature Logger 
+12. Train Reservation Queue 
+13. Sandeep’s Fitness Challenge Tracker 
+14. Movie Ticket Booking App
+15. Rohan’s Library Reminder App
