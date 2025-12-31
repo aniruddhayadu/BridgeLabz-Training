@@ -190,3 +190,35 @@ BridgeLabz-Training/
 10. Phone Recharge Simulator 
 
 🔗 Code: [Scenario-Based Folder]https://github.com/aniruddhayadu/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase
+---
+
+## 🗓 Day 15 – Scenario-Based Java Problems
+**(Date: 30-Dec-2025)**
+11. Temperature Logger 
+12. Train Reservation Queue 
+13. Sandeep’s Fitness Challenge Tracker 
+14. Movie Ticket Booking App
+15. Rohan’s Library Reminder App
+
+---
+
+## 🗓 Day 15 – LeetCode Array Problems  
+**(Date: 30-Dec-2025)**
+
+
+| Problem No | Title                               | Difficulty | Folder |
+| ---------- | ----------------------------------- | ---------- | ------ |
+| 1          | Two Sum                             | Easy       | arrays |
+| 4          | Median of Two Sorted Arrays         | Hard       | arrays |
+| 14         | Longest Common Prefix               | Easy       | arrays |
+| 15         | 3Sum                                | Medium     | arrays |
+| 16         | 3Sum Closest                        | Medium     | arrays |
+| 26         | Remove Duplicates from Sorted Array | Easy       | arrays |
+| 27         | Remove Element                      | Easy       | arrays |
+
+
+**Folder Link for Today’s Work:**  
+👉 [LeetCode Arrays Folder](https://github.com/aniruddhayadu/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/arrays)
+
+---
+
