@@ -194,12 +194,13 @@ BridgeLabz-Training/
 
 ## 🗓 Day 15 – Scenario-Based Java Problems
 **(Date: 30-Dec-2025)**
+
 11. Temperature Logger 
 12. Train Reservation Queue 
 13. Sandeep’s Fitness Challenge Tracker 
 14. Movie Ticket Booking App
 15. Rohan’s Library Reminder App
-
+🔗 Code: [Scenario-Based Folder]https://github.com/aniruddhayadu/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase
 ---
 
 ## 🗓 Day 15 – LeetCode Array Problems  
@@ -222,3 +223,13 @@ BridgeLabz-Training/
 
 ---
 
+## 🗓 Day 16 – Scenario-Based Java Problems
+**(Date: 31-Dec-2025)**
+
+16. Digital Watch Simulation
+17. Online Quiz Application
+18. Currency Exchange Kiosk 💱
+19. Bus Route Distance Tracker 🚌
+20. Festival Lucky Draw 🎉
+🔗 Code: [Scenario-Based Folder]https://github.com/aniruddhayadu/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase
+--- 
