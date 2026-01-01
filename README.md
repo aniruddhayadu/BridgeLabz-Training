@@ -1,6 +1,5 @@
-# 📅 Week 2: Procedural & Object-Oriented Programming 
+# 📅 (Date: 26-Dec-2025) : Procedural & Object-Oriented Programming 
 
-**(Date: 26-Dec-2025)**
 
 -**Topics Covered**
  - Procedural Programming
@@ -23,9 +22,8 @@
  - Practice problems for concept reinforcement
 ---
 
-# 📅 Week 2: Constructors & Access Modifiers
+# 📅 (Date: 27-Dec-2025): Constructors & Access Modifiers
 
-**(Date: 27-Dec-2025)**
 
 **-Topics Covered**
  - Best Practices in Constructors 
@@ -51,9 +49,8 @@
  - Practice problems for concept reinforcement
 
 ---
-# 📅 Week 2: this, static, final key words and instanceof operator
+# 📅 (Date: 29-Dec-2025): this, static, final key words and instanceof operator
 
-**(Date: 29-Dec-2025)**
 
 **-Topics Covered**
  - this Keyword
@@ -69,3 +66,46 @@
  - Final Methods
  - Final Classes
  - instanceof Operator
+
+---
+
+# 📅 (Date: 31-Dec-2025) : Java Inheritance
+
+**-Topics Covered**
+- Inheritance
+- Single Level Inheritance
+- Multilevel Inheritance
+- Hierarchical Inheritance
+- Key Features of Inheritance
+- Method Overriding
+- Constructor Inheritance in Java
+- Polymorphism and Inheritance
+ - Access Modifiers and Inheritance
+
+---
+
+# 📅 (Date: 01-Jan-2026) : Java Encapsulation and Polymorphism
+
+**-Topics Covered**
+ - **Encapsulation**
+ - Key Benefits of Encapsulation
+   - Data Hiding
+   - Increased Flexibility
+   - Reusability
+ - Example of Encapsulation 
+
+ **- Polymorphism**
+  - Types of Polymorphism
+    - Compile-Time (Static) Polymorphism
+      - Method Overloading
+    - Runtime (Dynamic) Polymorphism
+      - Method Overriding
+ - Polymorphism with Interfaces
+ - Polymorphism with Abstract Classes
+ - Java Interfaces and Abstract Classes
+   - Abstract Class
+   - Interface
+- Interface vs Class in Java
+- When to Use Interface vs Class
+
+---
