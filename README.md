@@ -69,3 +69,20 @@
  - Final Methods
  - Final Classes
  - instanceof Operator
+
+---
+
+# 📅 (Date: 01-Jan-2026) : Java Inheritance
+
+**-Topics Covered**
+- Inheritance
+- Single Level Inheritance
+- Multilevel Inheritance
+- Hierarchical Inheritance
+- Key Features of Inheritance
+- Method Overriding
+- Constructor Inheritance in Java
+- Polymorphism and Inheritance
+ - Access Modifiers and Inheritance
+
+
