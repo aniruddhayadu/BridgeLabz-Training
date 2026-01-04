@@ -109,3 +109,15 @@
 - When to Use Interface vs Class
 
 ---
+
+# 📅 (Date: 03-Jan-2026) : Java OOPs Scenario-based Problems
+
+1. Hospital Patient Management System
+2. Vehicle Rental Application
+3. University Course Enrollment System
+4. E-Wallet Application
+5. Smart Home Automation System
+6. CabbyGo – A Ride-Hailing App in the Making
+7. MyBank – Managing Customer Accounts
+
+---
