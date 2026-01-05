@@ -48,6 +48,10 @@
  - Access modifier based programs
  - Practice problems for concept reinforcement
 
+🔗 **Code Link:**  
+👉 [Constructors & Access Modifiers]https://github.com/aniruddhayadu/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/constructorandaccessmodifiers/level1
+
+
 ---
 # 📅 (Date: 29-Dec-2025): this, static, final key words and instanceof operator
 
@@ -67,6 +71,9 @@
  - Final Classes
  - instanceof Operator
 
+🔗 **Code Link:**  
+👉 [this, static, final key words and instanceof operator]https://github.com/aniruddhayadu/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/thisfinalandstatic
+
 ---
 
 # 📅 (Date: 31-Dec-2025) : Java Inheritance
@@ -81,7 +88,8 @@
 - Constructor Inheritance in Java
 - Polymorphism and Inheritance
  - Access Modifiers and Inheritance
-
+🔗 **Code Link:**  
+👉 [Inheritance]https://github.com/aniruddhayadu/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/inheritance
 ---
 
 # 📅 (Date: 01-Jan-2026) : Java Encapsulation and Polymorphism
@@ -107,5 +115,23 @@
    - Interface
 - Interface vs Class in Java
 - When to Use Interface vs Class
+
+🔗 **Code Link:**  
+👉 [Java Encapsulation and Polymorphism]https://github.com/aniruddhayadu/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/encapsulationandpolymorphism
+
+---
+
+# 📅 (Date: 03-Jan-2026) : Java OOPs Scenario-based Problems
+
+1. Hospital Patient Management System
+2. Vehicle Rental Application
+3. University Course Enrollment System
+4. E-Wallet Application
+5. Smart Home Automation System
+6. CabbyGo – A Ride-Hailing App in the Making
+7. MyBank – Managing Customer Accounts
+
+🔗 **Code Link:**  
+👉 [Java OOPs Scenario-based Problems]https://github.com/aniruddhayadu/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/ScenarioCodebase/src/com
 
 ---
