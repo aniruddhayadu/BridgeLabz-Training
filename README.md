@@ -376,7 +376,7 @@ BridgeLabz-Training/
 
 ---
 
-# 📅 (Date: 06-Jan-2026) : Java OOPs Scenario-based Problems
+# 📅 (Date: 05-Jan-2026) : Java OOPs Scenario-based Problems
 
 8. CampusConnect – College Information System
 9. SwiftCart – The Grocery Shopping App
@@ -410,5 +410,13 @@ Studied important linear and hash-based data structures in Java Learned Stacks, 
 🔗 **Code Link:**  
 👉 [Stack, Queue & Hashing in Java]https://github.com/aniruddhayadu/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAPractice/src/com/stackqueueandhash
 
+---
+# 📅 (Date: 06-Jan-2026) : Java OOPs Scenario-based Problems
 
+10. EduMentor – Personalized Learning Platform
+11. FitTrack – Your Personal Fitness Tracker
 
+🔗 **Code Link:**  
+👉 [Java OOPs Scenario-based Problems]https://github.com/aniruddhayadu/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/ScenarioCodebase/src/com
+
+---
