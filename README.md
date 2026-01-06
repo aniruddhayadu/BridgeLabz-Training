@@ -358,3 +358,28 @@ BridgeLabz-Training/
 
 ---
 
+# 📅 (Date: 03-Jan-2026) : Java OOPs Scenario-based Problems
+
+1. Hospital Patient Management System
+2. Vehicle Rental Application
+3. University Course Enrollment System
+4. E-Wallet Application
+5. Smart Home Automation System
+6. CabbyGo – A Ride-Hailing App in the Making
+7. MyBank – Managing Customer Accounts
+
+🔗 **Code Link:**  
+👉 [Java OOPs Scenario-based Problems]https://github.com/aniruddhayadu/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/ScenarioCodebase/src/com
+
+---
+
+# 📅 (Date: 06-Jan-2026) : Java OOPs Scenario-based Problems
+
+8. CampusConnect – College Information System
+9. SwiftCart – The Grocery Shopping App
+
+🔗 **Code Link:**  
+👉 [Java OOPs Scenario-based Problems]https://github.com/aniruddhayadu/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/ScenarioCodebase/src/com
+
+---
+
