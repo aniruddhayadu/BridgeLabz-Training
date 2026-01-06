@@ -165,7 +165,8 @@ BridgeLabz-Training/
 | 303 | Range Sum Query – Immutable | Easy | arrays |
 | 349 | Intersection of Two Arrays | Easy | arrays |
 
-**Folder Link for Today’s Work:**  
+
+*Folder Link for Today’s Work:* 
 👉 [LeetCode Arrays Folder](https://github.com/aniruddhayadu/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/arrays)
 
 **Key Concepts Practiced:**
@@ -219,7 +220,7 @@ BridgeLabz-Training/
 | 27         | Remove Element                      | Easy       | arrays |
 
 
-**Folder Link for Today’s Work:**  
+*Folder Link for Today’s Work:*
 👉 [LeetCode Arrays Folder](https://github.com/aniruddhayadu/BridgeLabz-Training/tree/core-java-practice/leet-code-codebase/arrays)
 
 ---
