@@ -411,12 +411,31 @@ Studied important linear and hash-based data structures in Java Learned Stacks, 
 👉 [Stack, Queue & Hashing in Java]https://github.com/aniruddhayadu/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAPractice/src/com/stackqueueandhash
 
 ---
+# 📅 (Date: 05-Jan-2026) : Sorting Algorithms
+
+Sorting algorithms arrange data in a specific order (ascending or descending). They are essential for efficient data processing and searching.
+
+**Algorithms Covered**
+
+ - Bubble Sort – Simple comparison-based algorithm; best for small datasets.
+ - Insertion Sort – Builds the sorted list one element at a time; efficient for nearly sorted data.
+ - Merge Sort – Divide-and-conquer algorithm; fast and stable for large datasets.
+ - Quick Sort – Highly efficient divide-and-conquer algorithm; commonly used in practice.
+
+🔗 Code Link:
+👉 [Sorting Algorithms in Java]https://github.com/aniruddhayadu/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAPractice/src/com/sortingalgorithms
+
+---
+
 # 📅 (Date: 06-Jan-2026) : Java OOPs Scenario-based Problems
 
 10. EduMentor – Personalized Learning Platform
 11. FitTrack – Your Personal Fitness Tracker
+12. PetPal – Virtual Pet Care App
+13. EventEase – Event Management Platform
 
 🔗 **Code Link:**  
 👉 [Java OOPs Scenario-based Problems]https://github.com/aniruddhayadu/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/ScenarioCodebase/src/com
 
 ---
+
