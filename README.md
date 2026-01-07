@@ -149,6 +149,8 @@
 
 10. EduMentor – Personalized Learning Platform
 11. FitTrack – Your Personal Fitness Tracker
+12. PetPal – Virtual Pet Care App
+13. EventEase – Event Management Platform
 
 🔗 **Code Link:**  
 👉 [Java OOPs Scenario-based Problems]https://github.com/aniruddhayadu/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/ScenarioCodebase/src/com
