@@ -156,3 +156,14 @@
 👉 [Java OOPs Scenario-based Problems]https://github.com/aniruddhayadu/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/ScenarioCodebase/src/com
 
 ---
+
+# 📅 (Date: 07-Jan-2026) : Java OOPs Scenario-based Problems
+
+14. LoanBuddy – Loan Approval Automation
+15. BookBazaar – Digital Bookstore System
+16. ParkEase – Smart Parking Management System
+
+🔗 **Code Link:**  
+👉 [Java OOPs Scenario-based Problems]https://github.com/aniruddhayadu/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/ScenarioCodebase/src/com
+
+---
