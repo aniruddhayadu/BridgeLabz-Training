@@ -49,7 +49,7 @@
  - Practice problems for concept reinforcement
 
 🔗 **Code Link:**  
-👉 [Constructors & Access Modifiers]https://github.com/aniruddhayadu/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/constructorandaccessmodifiers/level1
+👉 [Constructors & Access Modifiers](https://github.com/aniruddhayadu/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/constructorandaccessmodifiers/level1)
 
 
 ---
@@ -72,7 +72,7 @@
  - instanceof Operator
 
 🔗 **Code Link:**  
-👉 [this, static, final key words and instanceof operator]https://github.com/aniruddhayadu/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/thisfinalandstatic
+👉 [this, static, final key words and instanceof operator](https://github.com/aniruddhayadu/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/thisfinalandstatic)
 
 ---
 
@@ -89,7 +89,7 @@
 - Polymorphism and Inheritance
  - Access Modifiers and Inheritance
 🔗 **Code Link:**  
-👉 [Inheritance]https://github.com/aniruddhayadu/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/inheritance
+👉 [Inheritance](https://github.com/aniruddhayadu/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/inheritance)
 ---
 
 # 📅 (Date: 01-Jan-2026) : Java Encapsulation and Polymorphism
@@ -117,7 +117,7 @@
 - When to Use Interface vs Class
 
 🔗 **Code Link:**  
-👉 [Java Encapsulation and Polymorphism]https://github.com/aniruddhayadu/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/encapsulationandpolymorphism
+👉 [Java Encapsulation and Polymorphism](https://github.com/aniruddhayadu/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/encapsulationandpolymorphism)
 
 ---
 
@@ -132,7 +132,7 @@
 7. MyBank – Managing Customer Accounts
 
 🔗 **Code Link:**  
-👉 [Java OOPs Scenario-based Problems]https://github.com/aniruddhayadu/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/ScenarioCodebase/src/com
+👉 [Java OOPs Scenario-based Problems](https://github.com/aniruddhayadu/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/ScenarioCodebase/src/com)
 
 ---
 
@@ -142,7 +142,7 @@
 9. SwiftCart – The Grocery Shopping App
 
 🔗 **Code Link:**  
-👉 [Java OOPs Scenario-based Problems]https://github.com/aniruddhayadu/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/ScenarioCodebase/src/com
+👉 [Java OOPs Scenario-based Problems](https://github.com/aniruddhayadu/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/ScenarioCodebase/src/com)
 
 ---
 # 📅 (Date: 06-Jan-2026) : Java OOPs Scenario-based Problems
@@ -153,7 +153,7 @@
 13. EventEase – Event Management Platform
 
 🔗 **Code Link:**  
-👉 [Java OOPs Scenario-based Problems]https://github.com/aniruddhayadu/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/ScenarioCodebase/src/com
+👉 [Java OOPs Scenario-based Problems](https://github.com/aniruddhayadu/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/ScenarioCodebase/src/com)
 
 ---
 
@@ -164,6 +164,16 @@
 16. ParkEase – Smart Parking Management System
 
 🔗 **Code Link:**  
-👉 [Java OOPs Scenario-based Problems]https://github.com/aniruddhayadu/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/ScenarioCodebase/src/com
+👉 [Java OOPs Scenario-based Problems](https://github.com/aniruddhayadu/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/ScenarioCodebase/src/com)
+
+---
+
+# 📅 (Date: 08-Jan-2026) : Java OOPs Scenario-based Problems
+
+17. MediStore – Pharmacy Inventory & Sales System
+18. TourMate – Travel Itinerary Planner
+
+🔗 **Code Link:**  
+👉 [Java OOPs Scenario-based Problems](https://github.com/aniruddhayadu/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/ScenarioCodebase/src/com)
 
 ---
