@@ -35,7 +35,7 @@ BridgeLabz-Training/
 - Practiced adding, committing, and pushing Java files to GitHub.
 
 🔗 **Code Link:**  
-👉 [Day 2 – Basic Java Programs]https://github.com/aniruddhayadu/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/program-prerequisite
+👉 [Day 2 – Basic Java Programs](https://github.com/aniruddhayadu/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/program-prerequisite)
 
 ---
 
@@ -50,7 +50,7 @@ BridgeLabz-Training/
 - Committed and pushed solutions to the repository.
 
 🔗 **Code Link:**  
-👉 [Day 3 – Programming Elements]https://github.com/aniruddhayadu/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/programming-elements
+👉 [Day 3 – Programming Elements](https://github.com/aniruddhayadu/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/programming-elements)
 
 ---
 
@@ -72,7 +72,7 @@ BridgeLabz-Training/
 - Committed and pushed solutions to the repository.
 
 🔗 **Code Link:**  
-👉 [Day 4 – Control Flow]https://github.com/aniruddhayadu/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/control-flows
+👉 [Day 4 – Control Flow](https://github.com/aniruddhayadu/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/control-flows)
 
 ---
 
@@ -90,7 +90,7 @@ BridgeLabz-Training/
 - Committed and pushed solutions to the repository.
 
 🔗 **Code Link:**  
-👉 [Day 5 – Arrays]https://github.com/aniruddhayadu/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/arrays
+👉 [Day 5 – Arrays](https://github.com/aniruddhayadu/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/arrays)
 
 ---
 ## 🗓 Day 6 – Strings & Methods  
@@ -109,7 +109,7 @@ BridgeLabz-Training/
 - Committed and pushed solutions to the repository.
 
 🔗 **Code Link:**  
-👉 [Day 6 – Strings & Methods]https://github.com/aniruddhayadu/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/string
+👉 [Day 6 – Strings & Methods](https://github.com/aniruddhayadu/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/string)
 
 ---
 ## 🗓 Day 7 – Built-in Functions & Extra Practice  
@@ -125,7 +125,7 @@ BridgeLabz-Training/
 - Committed and pushed all changes successfully.
 
 🔗 **Code Link:**  
-👉 [Day 7 – Built-in Functions]https://github.com/aniruddhayadu/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/extras
+👉 [Day 7 – Built-in Functions](https://github.com/aniruddhayadu/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/extras)
 
 ---
 
@@ -138,7 +138,7 @@ BridgeLabz-Training/
 4. Metro Smart Card Fare Deduction
 5. Raj’s Result Generator
 
-🔗 Code: [Scenario-Based Folder]https://github.com/aniruddhayadu/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase
+🔗 Code: [Scenario-Based Folder](https://github.com/aniruddhayadu/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase)
 
 ---
 ## 🗓 Day 11 – LeetCode Practice
@@ -176,10 +176,7 @@ BridgeLabz-Training/
 - HashSet for unique intersection elements.
 - Emphasis on **O(n) time** and **O(1) extra space** where possible.
 
-**Commit & Push Notes:**
-- All solutions include `main` methods for testing.
-- Code follows consistent naming and folder structure.
-- Ready for further practice and extension.
+
 ---
 
 ## 🗓 Day 14 – Scenario-Based Java Problems
@@ -191,7 +188,8 @@ BridgeLabz-Training/
 9. School Bus Attendance System
 10. Phone Recharge Simulator 
 
-🔗 Code: [Scenario-Based Folder]https://github.com/aniruddhayadu/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase
+🔗 Code: [Scenario-Based Folder](https://github.com/aniruddhayadu/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase)
+
 ---
 
 ## 🗓 Day 15 – Scenario-Based Java Problems
@@ -202,7 +200,7 @@ BridgeLabz-Training/
 13. Sandeep’s Fitness Challenge Tracker 
 14. Movie Ticket Booking App
 15. Rohan’s Library Reminder App
-🔗 Code: [Scenario-Based Folder]https://github.com/aniruddhayadu/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase
+🔗 Code: [Scenario-Based Folder](https://github.com/aniruddhayadu/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase)
 ---
 
 ## 🗓 Day 15 – LeetCode Array Problems  
@@ -233,7 +231,7 @@ BridgeLabz-Training/
 18. Currency Exchange Kiosk 💱
 19. Bus Route Distance Tracker 🚌
 20. Festival Lucky Draw 🎉
-🔗 Code: [Scenario-Based Folder]https://github.com/aniruddhayadu/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase
+🔗 Code: [Scenario-Based Folder](https://github.com/aniruddhayadu/BridgeLabz-Training/tree/core-java-practice/scenario-based-codebase)
 --- 
 
 
@@ -289,7 +287,7 @@ BridgeLabz-Training/
  - Practice problems for concept reinforcement
 
 🔗 **Code Link:**  
-👉 [Constructors & Access Modifiers]https://github.com/aniruddhayadu/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/constructorandaccessmodifiers/level1
+👉 [Constructors & Access Modifiers](https://github.com/aniruddhayadu/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/constructorandaccessmodifiers/level1)
 
 
 ---
@@ -312,7 +310,7 @@ BridgeLabz-Training/
  - instanceof Operator
 
 🔗 **Code Link:**  
-👉 [this, static, final key words and instanceof operator]https://github.com/aniruddhayadu/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/thisfinalandstatic
+👉 [this, static, final key words and instanceof operator](https://github.com/aniruddhayadu/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/thisfinalandstatic)
 
 ---
 
@@ -329,7 +327,8 @@ BridgeLabz-Training/
 - Polymorphism and Inheritance
  - Access Modifiers and Inheritance
 🔗 **Code Link:**  
-👉 [Inheritance]https://github.com/aniruddhayadu/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/inheritance
+👉 [Inheritance](https://github.com/aniruddhayadu/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/inheritance)
+
 ---
 
 # 📅 (Date: 01-Jan-2026) : Java Encapsulation and Polymorphism
@@ -357,7 +356,7 @@ BridgeLabz-Training/
 - When to Use Interface vs Class
 
 🔗 **Code Link:**  
-👉 [Java Encapsulation and Polymorphism]https://github.com/aniruddhayadu/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/encapsulationandpolymorphism
+👉 [Java Encapsulation and Polymorphism](https://github.com/aniruddhayadu/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/gcr-codebase/JavaOopsConcepts/src/com/encapsulationandpolymorphism)
 
 ---
 
@@ -372,7 +371,7 @@ BridgeLabz-Training/
 7. MyBank – Managing Customer Accounts
 
 🔗 **Code Link:**  
-👉 [Java OOPs Scenario-based Problems]https://github.com/aniruddhayadu/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/ScenarioCodebase/src/com
+👉 [Java OOPs Scenario-based Problems](https://github.com/aniruddhayadu/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/ScenarioCodebase/src/com)
 
 ---
 
@@ -382,7 +381,7 @@ BridgeLabz-Training/
 9. SwiftCart – The Grocery Shopping App
 
 🔗 **Code Link:**  
-👉 [Java OOPs Scenario-based Problems]https://github.com/aniruddhayadu/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/ScenarioCodebase/src/com
+👉 [Java OOPs Scenario-based Problems](https://github.com/aniruddhayadu/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/ScenarioCodebase/src/com)
 
 ---
 
@@ -398,7 +397,7 @@ BridgeLabz-Training/
    - Circular Linked List  
 
 🔗 **Code Link:**  
-👉 [Data Structures & Linked Lists in Java]https://github.com/aniruddhayadu/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAPractice/src/com/linkedlist
+👉 [Data Structures & Linked Lists in Java](https://github.com/aniruddhayadu/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAPractice/src/com/linkedlist)
 
 
  --- 
@@ -408,7 +407,7 @@ BridgeLabz-Training/
 Studied important linear and hash-based data structures in Java Learned Stacks, Queues, HashMap, and Hashing functions Understood internal working, operations, use cases, and performance Implemented practical examples using Java built-in data structures
 
 🔗 **Code Link:**  
-👉 [Stack, Queue & Hashing in Java]https://github.com/aniruddhayadu/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAPractice/src/com/stackqueueandhash
+👉 [Stack, Queue & Hashing in Java](https://github.com/aniruddhayadu/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAPractice/src/com/stackqueueandhash)
 
 ---
 # 📅 (Date: 05-Jan-2026) : Sorting Algorithms
@@ -423,7 +422,7 @@ Sorting algorithms arrange data in a specific order (ascending or descending). T
  - Quick Sort – Highly efficient divide-and-conquer algorithm; commonly used in practice.
 
 🔗 Code Link:
-👉 [Sorting Algorithms in Java]https://github.com/aniruddhayadu/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAPractice/src/com/sortingalgorithms
+👉 [Sorting Algorithms in Java](https://github.com/aniruddhayadu/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAPractice/src/com/sortingalgorithms)
 
 ---
 
@@ -435,7 +434,7 @@ Sorting algorithms arrange data in a specific order (ascending or descending). T
 13. EventEase – Event Management Platform
 
 🔗 **Code Link:**  
-👉 [Java OOPs Scenario-based Problems]https://github.com/aniruddhayadu/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/ScenarioCodebase/src/com
+👉 [Java OOPs Scenario-based Problems](https://github.com/aniruddhayadu/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/ScenarioCodebase/src/com)
 
 ---
 
@@ -474,3 +473,17 @@ This document covers essential Java classes for string handling, file reading, a
 
 ---
 
+# 📅 (Date: 07-Jan-2026) : Algorithm's Runtime Analysis & Big-O Notation
+
+**Topics Covered**
+ - What is Runtime Analysis?
+ - Understanding Big-O Notation
+ - Time Complexity Analysis
+ - Space Complexity Analysis
+ - Best, Worst, and Average Case Complexities
+ - Practical Guidelines for Optimizing Java Code
+
+🔗 Code Link:  
+👉 [Java Basics & Searching Techniques](https://github.com/aniruddhayadu/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAPractice/src/com/runtimeanalysis)
+
+---
