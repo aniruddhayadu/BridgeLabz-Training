@@ -439,3 +439,38 @@ Sorting algorithms arrange data in a specific order (ascending or descending). T
 
 ---
 
+# 📅 (Date: 06-Jan-2026) : Java Basics & Searching Techniques
+
+This document covers essential Java classes for string handling, file reading, and basic searching algorithms. These are fundamental for efficient Java programming and data processing.
+
+**Topics Covered**
+
+### 1. StringBuilder
+- Mutable sequence of characters; allows modification without creating a new object.
+- Efficient for concatenating strings in loops or frequent modifications.
+  
+### 2. StringBuffer
+- Similar to `StringBuilder` but thread-safe (synchronized).
+- Ideal for multithreaded environments where multiple threads modify the same string.
+
+### 3. FileReader
+- Reads character files; suitable for reading text data.
+- Works with `BufferedReader` for efficient reading of large files line by line.
+
+### 4. InputStreamReader
+- Bridges byte streams to character streams.
+- Commonly used with `System.in` to read input from the console.
+
+### 5. Linear Search
+- Sequentially checks each element in a list until the target is found.
+- Simple but inefficient for large datasets (O(n) time complexity).
+
+### 6. Binary Search
+- Efficient searching algorithm for sorted arrays.
+- Divides the search space in half repeatedly (O(log n) time complexity).
+
+🔗 Code Link:  
+👉 [Java Basics & Searching Techniques](https://github.com/aniruddhayadu/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAPractice/src/com/stringfileandsearch)
+
+---
+
