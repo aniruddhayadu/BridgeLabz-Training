@@ -12,7 +12,7 @@
    - Circular Linked List  
 
 🔗 **Code Link:**  
-👉 [Data Structures & Linked Lists in Java]https://github.com/aniruddhayadu/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAPractice/src/com/linkedlist
+👉 [Data Structures & Linked Lists in Java](https://github.com/aniruddhayadu/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAPractice/src/com/linkedlist)
 
 ---
 
@@ -21,7 +21,7 @@
 Studied important linear and hash-based data structures in Java Learned Stacks, Queues, HashMap, and Hashing functions Understood internal working, operations, use cases, and performance Implemented practical examples using Java built-in data structures
 
 🔗 **Code Link:**  
-👉 [Stack, Queue & Hashing in Java]https://github.com/aniruddhayadu/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAPractice/src/com/stackqueueandhash
+👉 [Stack, Queue & Hashing in Java](https://github.com/aniruddhayadu/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAPractice/src/com/stackqueueandhash)
 
 ---
 
@@ -37,7 +37,7 @@ Sorting algorithms arrange data in a specific order (ascending or descending). T
  - Quick Sort – Highly efficient divide-and-conquer algorithm; commonly used in practice.
 
 🔗 Code Link:
-👉 [Sorting Algorithms in Java]https://github.com/aniruddhayadu/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAPractice/src/com/sortingalgorithms
+👉 [Sorting Algorithms in Java](https://github.com/aniruddhayadu/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAPractice/src/com/sortingalgorithms)
 
 ---
 
@@ -73,5 +73,21 @@ This document covers essential Java classes for string handling, file reading, a
 
 🔗 Code Link:  
 👉 [Java Basics & Searching Techniques](https://github.com/aniruddhayadu/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAPractice/src/com/stringfileandsearch)
+
+---
+
+
+# 📅 (Date: 07-Jan-2026) : Algorithm's Runtime Analysis & Big-O Notation
+
+**Topics Covered**
+ - What is Runtime Analysis?
+ - Understanding Big-O Notation
+ - Time Complexity Analysis
+ - Space Complexity Analysis
+ - Best, Worst, and Average Case Complexities
+ - Practical Guidelines for Optimizing Java Code
+
+🔗 Code Link:  
+👉 [Java Basics & Searching Techniques](https://github.com/aniruddhayadu/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/DSAPractice/src/com/runtimeanalysis)
 
 ---
