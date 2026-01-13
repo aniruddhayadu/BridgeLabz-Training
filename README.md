@@ -522,3 +522,32 @@ This document covers essential Java classes for string handling, file reading, a
 
 ---
 
+
+# 📅 (Date: 12-Jan-2026) : Java DSA Scenario Based Problems 
+
+**Questions Solved**
+
+1. BookShelf – Library Organizer (HashMap + Linked List)
+2. BrowserBuddy – Tab History Manager (Doubly Linked List + Stack)
+3. AmbulanceRoute – Emergency Patient Navigation (Circular Linked List)
+4. CallCenter – Customer Queue Manager (Queue + HashMap)
+5. TrainCompanion – Compartment Navigation System (Doubly Linked
+6. TextEditor – Undo/Redo Functionality (Stack)
+7. TrafficManager – Roundabout Vehicle Flow (Circular Linked List + Queue)
+
+🔗 Code Link:  
+👉 [Scenario Based Codebase](https://github.com/aniruddhayadu/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based-codebase/JavaDSAScenarioProblems/src/com)
+
+---
+
+# 📅 (Date: 12-Jan-2026) : Java OOPS Scenario Based Problems 
+
+**Questions Solved**
+22. HomeNest – Smart Home Device Manager
+23. BudgetWise – Personal Finance Tracker
+24. GameBox – Mobile Game Distribution Platform
+
+🔗 **Code Link:**  
+👉 [Java OOPs Scenario-based Problems](https://github.com/aniruddhayadu/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/ScenarioCodebase/src/com)
+
+---
