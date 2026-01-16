@@ -105,6 +105,20 @@ This document covers essential Java classes for string handling, file reading, a
 7. TrafficManager – Roundabout Vehicle Flow (Circular Linked List + Queue)
 
 🔗 Code Link:  
-👉 [Scenario Based Codebase](https://github.com/aniruddhayadu/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based-codebase/JavaDSAScenarioProblems/src/com)
+👉 [DSA Scenario Based Codebase](https://github.com/aniruddhayadu/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based-codebase/JavaDSAScenarioProblems/src/com)
 
 ---
+
+# 📅 (Date: 13-Jan-2026) : Java DSA Scenario Based Problems 
+
+**Questions Solved**
+
+8. SmartCheckout – Supermarket Billing Queue
+9. ParcelTracker – Delivery Chain Management
+10. ExamProctor – Online Exam Review System
+
+🔗 Code Link:  
+👉 [DSA Scenario Based Codebase](https://github.com/aniruddhayadu/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based-codebase/JavaDSAScenarioProblems/src/com)
+
+---
+
