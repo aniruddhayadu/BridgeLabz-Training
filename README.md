@@ -564,3 +564,15 @@ This document covers essential Java classes for string handling, file reading, a
 👉 [DSA Scenario Based Codebase](https://github.com/aniruddhayadu/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based-codebase/JavaDSAScenarioProblems/src/com)
 
 ---
+
+# 📅 (Date: 15-Jan-2026) : Java OOPS Scenario Based Problems 
+
+**Questions Solved**
+
+25. PayXpress – Utility Bill Payment System
+26. Bird Sanctuary
+    
+🔗 **Code Link:**  
+👉 [Java OOPs Scenario-based Problems](https://github.com/aniruddhayadu/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/ScenarioCodebase/src/com)
+
+---
