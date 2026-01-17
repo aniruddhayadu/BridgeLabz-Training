@@ -576,3 +576,21 @@ This document covers essential Java classes for string handling, file reading, a
 👉 [Java OOPs Scenario-based Problems](https://github.com/aniruddhayadu/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/ScenarioCodebase/src/com)
 
 ---
+
+# 📅 (Date: 17-Jan-2026) : Java DSA Sorting Scenario Based Problems 
+
+**Questions Solved**
+
+1. HospitalQueue – Patient Sorting by Criticality (Bubble Sort)
+2. SmartShelf – Real-Time Book Arrangement (Insertion Sort)
+3. ZipZipMart – Daily Sales Summary Report (Merge Sort)
+4. EventManager – Ticket Price Optimizer (Quick Sort)
+5. ExamCell – Student Rank Generator (Merge Sort)
+6. RoboWarehouse – Shelf Loading Robot (Insertion Sort)
+7. CinemaHouse – Movie Time Sorting (Bubble Sort)
+8. CropMonitor – Sensor Data Ordering (Quick Sort)
+
+🔗 Code Link:  
+👉 [DSA Scenario Based Codebase](https://github.com/aniruddhayadu/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based-codebase/JavaDSAScenarioProblems/src/com)
+
+---
