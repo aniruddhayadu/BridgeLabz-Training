@@ -139,3 +139,17 @@ This document covers essential Java classes for string handling, file reading, a
 👉 [DSA Scenario Based Codebase](https://github.com/aniruddhayadu/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based-codebase/JavaDSAScenarioProblems/src/com)
 
 ---
+
+# 📅 (Date: 17-Jan-2026) : Java DSA Sorting Scenario Based Problems 
+
+**Questions Solved**
+
+9. ArtExpo – Sort Artists by Registration Time (Insertion Sort)
+10. FleetManager – Vehicle Maintenance Scheduler (Merge Sort)
+11. IceCreamRush – Sorting Flavors by Popularity (Bubble Sort)
+12. SmartLibrary – Auto-Sort Borrowed Books (Insertion Sort)
+
+🔗 Code Link:  
+👉 [DSA Scenario Based Codebase](https://github.com/aniruddhayadu/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based-codebase/JavaDSAScenarioProblems/src/com)
+
+---
