@@ -184,7 +184,6 @@
 20. FoodLoop – Restaurant Ordering System
 21. SkillForge – Online Learning Portal
 
-
 🔗 **Code Link:**  
 👉 [Java OOPs Scenario-based Problems](https://github.com/aniruddhayadu/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/ScenarioCodebase/src/com)
 
@@ -193,10 +192,24 @@
 # 📅 (Date: 12-Jan-2026) : Java OOPS Scenario Based Problems 
 
 **Questions Solved**
+
 22. HomeNest – Smart Home Device Manager
 23. BudgetWise – Personal Finance Tracker
 24. GameBox – Mobile Game Distribution Platform
+    
 
+🔗 **Code Link:**  
+👉 [Java OOPs Scenario-based Problems](https://github.com/aniruddhayadu/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/ScenarioCodebase/src/com)
+
+---
+
+# 📅 (Date: 15-Jan-2026) : Java OOPS Scenario Based Problems 
+
+**Questions Solved**
+
+25. PayXpress – Utility Bill Payment System
+26. Bird Sanctuary
+    
 🔗 **Code Link:**  
 👉 [Java OOPs Scenario-based Problems](https://github.com/aniruddhayadu/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/ScenarioCodebase/src/com)
 
