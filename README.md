@@ -153,3 +153,17 @@ This document covers essential Java classes for string handling, file reading, a
 👉 [DSA Scenario Based Codebase](https://github.com/aniruddhayadu/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based-codebase/JavaDSAScenarioProblems/src/com)
 
 ---
+
+
+# 📅 (Date: 19-Jan-2026) : Java DSA Sorting Scenario Based Problems 
+
+**Questions Solved**
+
+13. EduResults – Rank Sheet Generator (Merge Sort)
+14. FlashDealz – Product Sorting by Discount (Quick Sort)
+15. FitnessTracker – Daily Step Count Ranking (Bubble Sort)
+
+🔗 Code Link:  
+👉 [DSA Scenario Based Codebase](https://github.com/aniruddhayadu/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based-codebase/JavaDSAScenarioProblems/src/com)
+
+---
