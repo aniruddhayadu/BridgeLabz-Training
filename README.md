@@ -670,3 +670,18 @@ Learned Java Generics to write type-safe, reusable, and flexible code Understood
 👉 [Java OOPs Scenario-based Problems](https://github.com/aniruddhayadu/BridgeLabz-Training/tree/java-oops-practice/java-oops-practice/scenario-based-codebase/ScenarioCodebase/src/com)
 
 ---
+
+# 📅 (Date: 21-Jan-2026) : Java DSA Sorting Scenario Based Problems 
+
+**Questions Solved**
+
+16. MovieTime – Theater Show Listings (Insertion Sort)
+17. FoodFest – Sorting Stalls by Customer Footfall (Merge Sort)
+18. GamerZone – High Score Ranking System (Quick Sort)
+19. TailorShop – Sorting Orders by Delivery Deadline (Insertion Sort)
+20. MedWarehouse – Sorting Medicines by Expiry (Merge Sort)
+
+🔗 Code Link:  
+👉 [DSA Scenario Based Codebase](https://github.com/aniruddhayadu/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based-codebase/JavaDSAScenarioProblems/src/com)
+
+---
