@@ -182,3 +182,25 @@ This document covers essential Java classes for string handling, file reading, a
 👉 [DSA Scenario Based Codebase](https://github.com/aniruddhayadu/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based-codebase/JavaDSAScenarioProblems/src/com)
 
 ---
+
+# 📅 (Date: 23-Jan-2026) : Java DSA Tree Scenario Based Problems 
+
+**Questions Solved**
+
+ - Binary Search Tree
+   
+  21. University's Digital Record System
+  22. E-Commerce Product Inventory
+  23. Music App - Organize Songs by Track ID
+
+ - AVL Tree
+
+  24. Gaming App - Real-Time Leaderboard
+  25. Online Ticket Booking by Time
+  26. Hospital Queue Management
+
+🔗 Code Link:  
+👉 [DSA Scenario Based Codebase](https://github.com/aniruddhayadu/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based-codebase/JavaDSAScenarioProblems/src/com)
+
+---
+
