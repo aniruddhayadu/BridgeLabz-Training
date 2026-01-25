@@ -706,3 +706,24 @@ Studied the Java Collection Framework architecture and hierarchy Understood core
 👉 [Java Collection Framework](https://github.com/aniruddhayadu/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-code-base/JavaCollectionsConcepts/src/com/collections)
 
 --- 
+
+# 📅 (Date: 23-Jan-2026) : Java DSA Tree Scenario Based Problems 
+
+**Questions Solved**
+
+ - Binary Search Tree
+   
+  21. University's Digital Record System
+  22. E-Commerce Product Inventory
+  23. Music App - Organize Songs by Track ID
+
+ - AVL Tree
+
+   24. Gaming App - Real-Time Leaderboard
+   25. Online Ticket Booking by Time
+   26. Hospital Queue Management
+
+🔗 Code Link:  
+👉 [DSA Scenario Based Codebase](https://github.com/aniruddhayadu/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based-codebase/JavaDSAScenarioProblems/src/com)
+
+---
