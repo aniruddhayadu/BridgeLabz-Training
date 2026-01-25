@@ -25,4 +25,23 @@ Learned Java Generics to write type-safe, reusable, and flexible code Understood
 
 ---
 
+# 📅 (Date: 21-Jan-2026) : Overview of Collection Framework
 
+Studied the Java Collection Framework architecture and hierarchy Understood core interfaces, classes, and their relationships Practiced usage of List, Set, Queue, Deque, and Map implementations Compared performance, ordering, and use cases of different collections Strengthened understanding of real-world use cases and best practices
+
+-**Topics Covered**
+ - Overview of Collections Framework
+ - What is the Collections Framework?
+ - Hierarchy of Collections Framework
+ - List Interface and Implementing Classes
+ - Set Interface and Implementing Classes
+ - Queue and Deque Interfaces
+ - Map Interface and Its Implementations
+ - Comparison of Different Implementations
+ - Real-World Use Cases and Best Practices.
+
+
+🔗 **Code Link:**  
+👉 [Java Collection Framework](https://github.com/aniruddhayadu/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-code-base/JavaCollectionsConcepts/src/com/collections)
+
+--- 
