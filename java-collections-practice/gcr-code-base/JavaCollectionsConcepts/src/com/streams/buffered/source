@@ -1,0 +1,13 @@
+Buffered Streams Performance Test File
+
+This file is used to test file copy performance in Java.
+It demonstrates the difference between normal file streams
+and buffered streams.
+
+BufferedInputStream and BufferedOutputStream
+improve performance by reducing disk I/O operations.
+
+This file can be duplicated multiple times
+or extended to increase file size for performance testing.
+
+End of file.
