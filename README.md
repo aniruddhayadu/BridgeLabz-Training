@@ -45,3 +45,52 @@ Studied the Java Collection Framework architecture and hierarchy Understood core
 👉 [Java Collection Framework](https://github.com/aniruddhayadu/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-code-base/JavaCollectionsConcepts/src/com/collections)
 
 --- 
+
+# 📅 (Date: 22-Jan-2026) : Java I/O Streams
+
+Learned the fundamentals of Java I/O (Input/Output) Streams Understood how Java handles data reading and writing using streams Studied byte streams, character streams, object streams, and buffered streams Implemented file handling, serialization, and in-memory data processing Focused on performance, encoding, and best practices
+
+-**Topics Covered**
+
+ - Java I/O Streams
+ - Types of Streams
+    - File Streams
+    - Object Streams
+    - ByteArray Streams
+    - Buffered Streams
+    - Reader and Writer
+ - Key Considerations
+ - Best Practices
+
+🔗 **Code Link:**  
+👉 [Java I/O Streams](https://github.com/aniruddhayadu/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-code-base/JavaCollectionsConcepts/src/com/streams/buffered)
+
+--- 
+
+# 📅 (Date: 23-Jan-2026) : Exception Handling in Java
+
+Learned Java Exception Handling to manage runtime and compile-time errors Studied the complete exception hierarchy Practiced handling checked, unchecked, and custom exceptions Implemented try-catch, finally, throw, throws, nested try blocks Used try-with-resources for efficient resource management
+
+-**Topics Covered**
+
+ - Exceptions 
+ - Types of Exceptions
+    - Checked Exceptions,
+    - Unchecked Exceptions
+    - Custom Exceptions
+ - Handling Exceptions
+    - try-catch blocks
+    - try-catch-finally blocks
+    - try-with-resources statement
+    - throws clause
+    - throw statement
+ - Creating Custom Exceptions
+ - Extending Exception Class
+ - Defining Constructors
+
+🔗 **Code Link:**  
+👉 [Java Collection Framework](https://github.com/aniruddhayadu/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-code-base/JavaCollectionsConcepts/src/com/collections)
+
+--- 
+
+
