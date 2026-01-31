@@ -63,7 +63,7 @@ Learned the fundamentals of Java I/O (Input/Output) Streams Understood how Java 
  - Best Practices
 
 🔗 **Code Link:**  
-👉 [Java I/O Streams](https://github.com/aniruddhayadu/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-code-base/JavaCollectionsConcepts/src/com/streams/buffered)
+👉 [Java I/O Streams](https://github.com/aniruddhayadu/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-code-base/JavaCollectionsConcepts/src/com/streams)
 
 --- 
 
@@ -89,8 +89,60 @@ Learned Java Exception Handling to manage runtime and compile-time errors Studie
  - Defining Constructors
 
 🔗 **Code Link:**  
-👉 [Java Collection Framework](https://github.com/aniruddhayadu/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-code-base/JavaCollectionsConcepts/src/com/collections)
+👉 [Exception Handling in Java](https://github.com/aniruddhayadu/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-code-base/JavaCollectionsConcepts/src/com/exceptions)
 
 --- 
 
+# 📅 (Date: 24-Jan-2026) : Java Regular Expressions (Regex) & JUnit Testing
+
+Learned Java Regular Expressions (Regex) for validation, searching, extracting, and replacing text Worked with Pattern and Matcher classes from java.util.regex Practiced real-world regex use cases (Email, Password, Phone, Dates, URLs, Hashtags) Understood metacharacters, quantifiers, and regex methods Learned JUnit framework for unit testing in Java
+
+-**Topics Covered**
+
+- Regex 
+  - MetaCharacter
+  - Quantifier
+
+ - Common Patterns:
+   - Email Validation
+   - Password Strength
+   - Phone Number Format 
+
+ - Java Regex API 
+  - Pattern
+  - Matcher
+
+ - Methods:
+  - find()
+  - matches()
+  - replaceAll()
+
+ - Introduction to JUnit Framework
+ - JUnit Annotations
+ - Writing Test Cases
+ - Structure of a Test Class
+ - Assertions
+
+🔗 **Code Link:**  
+👉 [Regex & JUnit Testing](https://github.com/aniruddhayadu/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-code-base/JavaCollectionsConcepts/src/com/regexandjunit)
+
+--- 
+
+# 📅 (Date: 27-Jan-2026) : Reflection & Annotations in Java
+
+Learned Java Reflection to inspect and manipulate classes, methods, fields, and constructors at runtime. Accessed and modified private fields and methods using the Reflection API. Created objects dynamically and invoked methods without using the new keyword. Explored dynamic proxies and runtime method interception used in frameworks like Spring. Studied built-in and meta-annotations such as @Override, @Retention, and @Target. Created and processed custom annotations for logging, validation, and framework integration.
+
+🔗 **Code Link:**  
+👉 [Reflection & Annotations in Java](https://github.com/aniruddhayadu/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/gcr-code-base/JavaCollectionsConcepts/src/com/reflectionandannotation)
+
+--- 
+
+# 📅 (Date: 31-Jan-2026) : Real-World Java Scenario-Based Problems (Collections, Generics, I/O & Regex)
+
+Solved 10 real-world, scenario-based Java problems Integrated Collections Framework, Generics, I/O Streams, and Regular Expressions Designed solutions close to enterprise-level applications Focused on file processing, data validation, parsing, indexing, and summarization
+
+🔗 **Code Link:**  
+👉 [Real-World Java Scenario-Based Problems (Collections, Generics, I/O & Regex)](https://github.com/aniruddhayadu/BridgeLabz-Training/tree/java-collections-practice/java-collections-practice/scenario-based-codebase/CollectionsScenarioBased/src/com)
+
+--- 
 
