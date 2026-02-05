@@ -9,6 +9,7 @@
 - Installed and configured Git.
 - Set up GitHub repository.
 ```
+
 BridgeLabz-Training/
 │── core-java-practice/
 │ │── gcr-codebase/
