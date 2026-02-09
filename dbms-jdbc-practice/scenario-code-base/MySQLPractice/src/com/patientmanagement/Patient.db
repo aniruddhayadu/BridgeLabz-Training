@@ -1,0 +1,176 @@
+-- 1. Patient Management
+
+-- Create DataBase 
+
+CREATE DATABASE patientmanagement;
+USE patientmanagement;
+
+-- patient table 
+CREATE TABLE patients(
+    patientId INT AUTO_INCREMENT PRIMARY KEY,
+    patientName VARCHAR(50),
+    DOB DATE,
+    contact VARCHAR(20),
+    address VARCHAR(50),
+    blood_group CHAR(2)
+    );
+
+-- doctors tables
+CREATE TABLE doctors(
+    doctorId INT AUTO_INCREMENT PRIMARY KEY,
+    doctorName VARCHAR(50),
+    specialist VARCHAR(100)
+    );
+
+-- Which patient visited which doctor
+CREATE TABLE visits(
+    visitId INT AUTO_INCREMENT PRIMARY KEY,
+    patientId INT NOT NULL,
+    doctorId INT NOT NULL,
+    visit_date DATE NOT NULL,
+    diagnosis VARCHAR(255),
+    prescription TEXT,
+    FOREIGN KEY (patientId) REFERENCES patients(patientId),
+    FOREIGN KEY (doctorId) REFERENCES doctors(doctorId)
+    );
+
+/*
+UC-1.1: Register New Patient
+Actor: Receptionist
+Flow: Enter patient details (name, DOB, contact, address, blood group). System validates uniqueness by phone/email, generates patient ID, inserts record into patients table with auto-increment primary key.
+*/
+
+INSERT INTO patients
+    (patientName,DOB,contact,address,blood_group)
+    VALUES
+    ('ravi','2000-03-20', '+91 9894932043', 'State- Madhya pradesh, District- bhopal, Aanand Nagar' , 'B'),
+    ('kali','2002-04-12', '+91 8755544543', 'State- Bihar, District- kathi, Press colony', 'B+'),
+    ('sonu','1999-05-20', '+91 7676565439', 'State- Tamilnadu, District- nishnatpur, Dollar colony', 'O-');
+
+
+SELECT * FROM patients;
++-----------+-------------+------------+----------------+-------------------------------------------------------+-------------+
+| patientId | patientName | DOB        | contact        | address                                               | blood_group |
++-----------+-------------+------------+----------------+-------------------------------------------------------+-------------+
+|         1 | ravi        | 2000-03-20 | +91 9894932043 | State- Madhya pradesh, District- bhopal, Aanand Nagar | B           |
+|         2 | kali        | 2002-04-12 | +91 8755544543 | State- Bihar, District- kathi, Press colony           | B+          |
+|         3 | sonu        | 1999-05-20 | +91 7676565439 | State- Tamilnadu, District- nishnatpur, Dollar colony | O-          |
++-----------+-------------+------------+----------------+-------------------------------------------------------+-------------+
+
+
+--doctors data insert
+INSERT INTO doctors
+    (doctorName, specialist)
+    VALUES
+    ('Dr. Anil Sharma', 'General Physician'),
+    ('Dr. Neha Verma', 'Pediatrician'),
+    ('Dr. Rajesh Mehta', 'Cardiologist'),
+    ('Dr. Pooja Iyer', 'Gynecologist'),
+    ('Dr. Amit Khanna', 'Orthopedic Surgeon'),
+    ('Dr. Sunita Rao', 'Dermatologist');
+
+SELECT * FROM doctors;
++----------+------------------+--------------------+
+| doctorId | doctorName       | specialist         |
++----------+------------------+--------------------+
+|        1 | Dr. Anil Sharma  | General Physician  |
+|        2 | Dr. Neha Verma   | Pediatrician       |
+|        3 | Dr. Rajesh Mehta | Cardiologist       |
+|        4 | Dr. Pooja Iyer   | Gynecologist       |
+|        5 | Dr. Amit Khanna  | Orthopedic Surgeon |
+|        6 | Dr. Sunita Rao   | Dermatologist      |
++----------+------------------+--------------------+
+
+-- visiter patient data added 
+INSERT INTO visits
+    (patientId, doctorId, visit_date, diagnosis, prescription)
+    VALUES
+    (1, 1, '2026-02-01', 'Fever', 'Paracetamol'),
+    (1, 2, '2026-02-10', 'Headache', 'Ibuprofen'),
+    (2, 1, '2026-02-05', 'Cold', 'Antihistamine');
+
+SELECT * FROM visits;
++---------+-----------+----------+------------+-----------+---------------+
+| visitId | patientId | doctorId | visit_date | diagnosis | prescription  |
++---------+-----------+----------+------------+-----------+---------------+
+|       1 |         1 |        1 | 2026-02-01 | Fever     | Paracetamol   |
+|       2 |         1 |        2 | 2026-02-10 | Headache  | Ibuprofen     |
+|       3 |         2 |        1 | 2026-02-05 | Cold      | Antihistamine |
++---------+-----------+----------+------------+-----------+---------------+
+
+
+/*
+UC-1.2: Update Patient Information
+Actor: Receptionist
+Flow: Search patient by ID/phone, display current details, update fields, execute SQL UPDATE with WHERE clause on patient ID.
+*/
+
+--before update 
+SELECT * FROM patients;
++-----------+-------------+------------+----------------+-------------------------------------------------------+-------------+
+| patientId | patientName | DOB        | contact        | address                                               | blood_group |
++-----------+-------------+------------+----------------+-------------------------------------------------------+-------------+
+|         1 | ravi        | 2000-03-20 | +91 9894932043 | State- Madhya pradesh, District- bhopal, Aanand Nagar | B           |
+|         2 | kali        | 2002-04-12 | +91 8755544543 | State- Bihar, District- kathi, Press colony           | B+          |
+|         3 | sonu        | 1999-05-20 | +91 7676565439 | State- Tamilnadu, District- nishnatpur, Dollar colony | O-          |
++-----------+-------------+------------+----------------+-------------------------------------------------------+-------------+
+
+--update query (blood_group)
+
+UPDATE patients
+    SET
+    blood_group = 'B+'
+    WHERE patientId = 1;
+
+--after update 
+
+SELECT * FROM patients;
++-----------+-------------+------------+----------------+-------------------------------------------------------+-------------+
+| patientId | patientName | DOB        | contact        | address                                               | blood_group |
++-----------+-------------+------------+----------------+-------------------------------------------------------+-------------+
+|         1 | ravi        | 2000-03-20 | +91 9894932043 | State- Madhya pradesh, District- bhopal, Aanand Nagar | B+          |
+|         2 | kali        | 2002-04-12 | +91 8755544543 | State- Bihar, District- kathi, Press colony           | B+          |
+|         3 | sonu        | 1999-05-20 | +91 7676565439 | State- Tamilnadu, District- nishnatpur, Dollar colony | O-          |
++-----------+-------------+------------+----------------+-------------------------------------------------------+-------------+
+
+/*
+UC-1.3: Search Patient Records
+Actor: Receptionist/Doctor
+Flow: Query patients table using LIKE operator for name search or exact match for ID/phone. Display results using ResultSet iteration.
+*/
+
+SELECT * FROM patients
+    WHERE contact = '+91 8755544543';
+
++-----------+-------------+------------+----------------+---------------------------------------------+-------------+
+| patientId | patientName | DOB        | contact        | address                                     | blood_group |
++-----------+-------------+------------+----------------+---------------------------------------------+-------------+
+|         2 | kali        | 2002-04-12 | +91 8755544543 | State- Bihar, District- kathi, Press colony | B+          |
++-----------+-------------+------------+----------------+---------------------------------------------+-------------+
+
+
+/*
+UC-1.4: View Patient Visit History
+Actor: Doctor/Receptionist
+Flow: Execute JOIN query between appointments and visits tables filtered by patient ID. Display chronological list with doctor names and diagnoses.
+*/
+
+SELECT
+    p.patientName,
+    d.doctorName,
+    d.specialist,
+    v.visit_date,
+    v.diagnosis,
+    v.prescription
+    FROM visits v
+    JOIN patients p ON v.patientId = p.patientId
+    JOIN doctors d ON v.doctorId = d.doctorId
+    WHERE p.patientId = 1
+    ORDER BY v.visit_date;
+
++-------------+-----------------+-------------------+------------+-----------+--------------+
+| patientName | doctorName      | specialist        | visit_date | diagnosis | prescription |
++-------------+-----------------+-------------------+------------+-----------+--------------+
+| ravi        | Dr. Anil Sharma | General Physician | 2026-02-01 | Fever     | Paracetamol  |
+| ravi        | Dr. Neha Verma  | Pediatrician      | 2026-02-10 | Headache  | Ibuprofen    |
++-------------+-----------------+-------------------+------------+-----------+--------------+
