@@ -1,0 +1,114 @@
+
+-- 1. Create Database
+CREATE DATABASE LibraryManagement;
+USE LibraryManagement;
+
+-- 2. Create Tables
+-- Books table (inventory)
+CREATE TABLE books (
+    book_id INT PRIMARY KEY AUTO_INCREMENT,
+    title VARCHAR(200) NOT NULL,
+    author VARCHAR(100) NOT NULL,
+    genre VARCHAR(50),
+    total_copies INT NOT NULL,
+    available_copies INT NOT NULL
+);
+
+-- Students table
+CREATE TABLE students (
+    student_id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(100) NOT NULL,
+    email VARCHAR(100) UNIQUE
+);
+
+-- Borrow records table
+CREATE TABLE borrow_records (
+    borrow_id INT PRIMARY KEY AUTO_INCREMENT,
+    student_id INT NOT NULL,
+    book_id INT NOT NULL,
+    borrow_date DATE NOT NULL,
+    due_date DATE NOT NULL,
+    return_date DATE,
+    fine DECIMAL(10,2) DEFAULT 0,
+    FOREIGN KEY (student_id) REFERENCES students(student_id),
+    FOREIGN KEY (book_id) REFERENCES books(book_id)
+);
+
+-- 3. Insert Sample Data
+-- Books
+INSERT INTO books (title, author, genre, total_copies, available_copies)
+VALUES
+('Godan', 'Premchndra', 'Novel', 5, 5),
+('Chitralekha', 'Bhagwati charan', 'History', 3, 3),
+('Gunaho ka devta', 'Dharmveer Bharti', 'Education', 2, 2);
+
+-- Students
+INSERT INTO students (name, email)
+VALUES
+('Alice Johnson', 'alice@example.com'),
+('Bob Smith', 'bob@example.com');
+
+-- 4. Borrow a Book
+-- Variables
+SET @student_id = 1;
+SET @book_id = 2;
+SET @borrow_date = CURDATE();
+SET @due_date = DATE_ADD(@borrow_date, INTERVAL 14 DAY);
+
+-- Borrow a book only if available
+START TRANSACTION;
+
+-- Check available copies
+SELECT available_copies INTO @available FROM books WHERE book_id = @book_id;
+
+IF @available > 0 THEN
+    -- Deduct 1 copy
+    UPDATE books
+    SET available_copies = available_copies - 1
+    WHERE book_id = @book_id;
+
+    -- Insert borrow record
+    INSERT INTO borrow_records (student_id, book_id, borrow_date, due_date)
+    VALUES (@student_id, @book_id, @borrow_date, @due_date);
+
+    COMMIT;
+ELSE
+    ROLLBACK;
+    SELECT 'Book not available!' AS message;
+END IF;
+
+-- 5. Return a Book and Calculate Fine
+-- Variables
+SET @borrow_id = 1;
+SET @return_date = CURDATE();
+SET @fine_per_day = 5.00;
+
+-- Update borrow record with return date and fine
+UPDATE borrow_records
+SET return_date = @return_date,
+    fine = CASE
+               WHEN @return_date > due_date THEN DATEDIFF(@return_date, due_date) * @fine_per_day
+               ELSE 0
+           END
+WHERE borrow_id = @borrow_id;
+
+-- Increase book availability
+UPDATE books b
+JOIN borrow_records br ON b.book_id = br.book_id
+SET b.available_copies = b.available_copies + 1
+WHERE br.borrow_id = @borrow_id;
+
+-- 6. Search Books with Filters
+-- Example: title contains '1984', genre 'Dystopian', only available books
+SELECT *
+FROM books
+WHERE (title LIKE '%1984%' OR '1984' IS NULL)
+  AND (genre = 'Dystopian' OR 'Dystopian' IS NULL)
+  AND available_copies > 0;
+
+-- 7. View Borrow History for a Student
+SELECT br.borrow_id, b.title, br.borrow_date, br.due_date, br.return_date, br.fine
+FROM borrow_records br
+JOIN books b ON br.book_id = b.book_id
+WHERE br.student_id = 1
+ORDER BY br.borrow_date DESC;
