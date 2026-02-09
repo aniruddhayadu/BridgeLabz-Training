@@ -1,0 +1,190 @@
+/*
+2. Doctor Management
+*/
+
+-- Task 0 [CREATE DATABASE AND TABLES]
+
+CREATE DATABASE doctormanagement;
+USE doctormanagement;
+
+CREATE TABLE specialties(
+    specialtyId INT AUTO_INCREMENT PRIMARY KEY,
+    specialtyName VARCHAR(100) UNIQUE NOT NULL
+    );
+
+INSERT INTO specialties (specialtyName)
+    VALUES
+    ('General Physician'),
+    ('Pediatrician'),
+    ('Cardiologist'),
+    ('Gynecologist'),
+    ('Orthopedic Surgeon'),
+    ('Dermatologist');
+
+SELECT * FROM specialties;
++-------------+--------------------+
+| specialtyId | specialtyName      |
++-------------+--------------------+
+|           3 | Cardiologist       |
+|           6 | Dermatologist      |
+|           1 | General Physician  |
+|           4 | Gynecologist       |
+|           5 | Orthopedic Surgeon |
+|           2 | Pediatrician       |
++-------------+--------------------+
+
+
+CREATE TABLE doctors(
+    doctorId INT AUTO_INCREMENT PRIMARY KEY,
+    doctorName VARCHAR(50) NOT NULL,
+    specialtyId INT NOT NULL,
+    contact VARCHAR(20),
+    consultation_fee DECIMAL(10,2),
+    is_active BOOLEAN DEFAULT TRUE,
+    FOREIGN KEY (specialtyId) REFERENCES specialties(specialtyId)
+    );
+
+
+/*
+UC-2.1: Add Doctor Profile
+Actor: Administrator
+Flow: Input doctor details (name, specialization, contact, consultation fee). Insert into doctors table with foreign key reference to specialties table.
+*/
+
+INSERT INTO doctors
+(doctorName, specialtyId, contact, consultation_fee)
+VALUES
+('Dr. Anil Sharma', 1, '+91 9000011111', 500),
+('Dr. Neha Verma', 2, '+91 9000022222', 400);
+
+
+SELECT * FROM doctors;
++----------+-----------------+-------------+----------------+------------------+-----------+
+| doctorId | doctorName      | specialtyId | contact        | consultation_fee | is_active |
++----------+-----------------+-------------+----------------+------------------+-----------+
+|        3 | Dr. Anil Sharma |           1 | +91 9000011111 |           500.00 |         1 |
+|        4 | Dr. Neha Verma  |           2 | +91 9000022222 |           400.00 |         1 |
++----------+-----------------+-------------+----------------+------------------+-----------+
+
+
+/*
+UC-2.2: Assign/Update Doctor Specialty
+Actor: Administrator
+Flow: Display available specialties from lookup table, update doctor's specialty_id using UPDATE statement with transaction to maintain referential integrity.
+*/
+
+START TRANSACTION;
+
+UPDATE doctors
+    SET specialtyId = 3
+    WHERE doctorId = 4;
+
+COMMIT;
+
+SELECT * FROM doctors;
++----------+-----------------+-------------+----------------+------------------+-----------+
+| doctorId | doctorName      | specialtyId | contact        | consultation_fee | is_active |
++----------+-----------------+-------------+----------------+------------------+-----------+
+|        3 | Dr. Anil Sharma |           1 | +91 9000011111 |           500.00 |         1 |
+|        4 | Dr. Neha Verma  |           3 | +91 9000022222 |           400.00 |         1 |
++----------+-----------------+-------------+----------------+------------------+-----------+
+
+
+/*
+UC-2.3: View Doctors by Specialty
+Actor: Receptionist
+Flow: Execute JOIN query between doctors and specialties tables, filter by specialty name. Display available doctors with their schedules.
+*/
+
+SELECT
+    d.doctorName,
+    s.specialtyName,
+    d.is_active,
+    d.consultation_fee
+    FROM doctors d
+    JOIN specialties s ON d.specialtyId = s.specialtyId
+    WHERE s.specialtyName = 'Cardiologist';
+
++-----------------+---------------+-----------+------------------+
+| doctorName      | specialtyName | is_active | consultation_fee |
++-----------------+---------------+-----------+------------------+
+| Dr. Anil Sharma | Cardiologist  |         1 |           500.00 |
+| Dr. Neha Verma  | Cardiologist  |         1 |           400.00 |
++-----------------+---------------+-----------+------------------+
+
+
+/*
+UC-2.4: Deactivate Doctor Profile
+Actor: Administrator
+Flow: Soft delete using UPDATE to set is_active=false in doctors table. Check for future appointments using nested SELECT before deactivation.
+*/
+
+CREATE TABLE appointments (
+    appointmentId INT AUTO_INCREMENT PRIMARY KEY,
+    doctorId INT NOT NULL,
+    patientName VARCHAR(100) NOT NULL,
+    appointment_date DATE NOT NULL,
+    status ENUM('Scheduled', 'Completed', 'Cancelled') DEFAULT 'Scheduled',
+    FOREIGN KEY (doctorId) REFERENCES doctors(doctorId)
+    );
+
+INSERT INTO appointments (doctorId, patientName, appointment_date, status)
+    VALUES
+    (3, 'John Doe', '2023-10-15', 'Completed'), -- Past appointment
+    (4, 'Jane Smith', '2026-12-25', 'Scheduled'); -- Future appointment
+
+
+SELECT * FROM appointments;
++---------------+----------+-------------+------------------+-----------+
+| appointmentId | doctorId | patientName | appointment_date | status    |
++---------------+----------+-------------+------------------+-----------+
+|             1 |        3 | John Doe    | 2023-10-15       | Completed |
+|             2 |        4 | Jane Smith  | 2026-12-25       | Scheduled |
++---------------+----------+-------------+------------------+-----------+
+
+
+--query to deactivation
+
+SELECT CASE
+    WHEN COUNT(*) = 0 THEN 'Ready for Deactivation'
+    ELSE 'Cannot Deactivate: Future Appointments Pending'
+    END AS Status
+    FROM appointments
+    WHERE doctorId = 3 AND appointment_date >= CURDATE();
+
++------------------------+
+| Status                 |
++------------------------+
+| Ready for Deactivation |
++------------------------+
+
+UPDATE doctors
+    SET is_active = FALSE
+    WHERE doctorId = 3
+    AND NOT EXISTS (
+    SELECT 1 FROM appointments
+    WHERE doctorId = 3 AND appointment_date >= CURDATE()
+    );
+
+SELECT doctorName, is_active FROM doctors WHERE doctorId = 3;
++-----------------+-----------+
+| doctorName      | is_active |
++-----------------+-----------+
+| Dr. Anil Sharma |         0 |
++-----------------+-----------+
+
+SELECT * FROM doctors;
++----------+-----------------+-------------+----------------+------------------+-----------+
+| doctorId | doctorName      | specialtyId | contact        | consultation_fee | is_active |
++----------+-----------------+-------------+----------------+------------------+-----------+
+|        3 | Dr. Anil Sharma |           3 | +91 9000011111 |           500.00 |         0 |
+|        4 | Dr. Neha Verma  |           3 | +91 9000022222 |           400.00 |         1 |
++----------+-----------------+-------------+----------------+------------------+-----------+
+
+SELECT * FROM appointments;
++---------------+----------+-------------+------------------+-----------+
+| appointmentId | doctorId | patientName | appointment_date | status    |
++---------------+----------+-------------+------------------+-----------+
+|             1 |        3 | John Doe    | 2023-10-15       | Completed |
+|             2 |        4 | Jane Smith  | 2026-12-25       | Scheduled |
++---------------+----------+-------------+------------------+-----------+
