@@ -1,0 +1,32 @@
+-- Create database crudoperation;
+use crudoperation;
+
+-- creating table 
+create table employees(
+emp_id INT primary key ,
+emp_name varchar(50),
+salary Decimal(10,2)
+);
+
+
+-- Add employee
+INSERT INTO employees (emp_id, emp_name, salary)
+VALUES
+(1, 'Divyanshu', 98000.00),
+(2, 'Aniruddha', 98001.00),
+(3, 'Aditya', 99999.00),
+(4, 'Arif', 97000.00);
+
+-- View all employees
+select * from employees;
+
+-- Update employee salary
+ update employees 
+ set salary = 99500.00
+ where emp_id = 4;
+ 
+ -- Delete employee
+ delete from employees where emp_id = 1;
+ 
+ -- Search employee by name
+select emp_id, salary from employees where emp_name ='Arif';
